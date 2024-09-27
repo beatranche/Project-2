@@ -96,6 +96,27 @@ def age_category(df):
     df['clnt_age_category'].value_counts()
     return df
 
+def bal_category(df):
+ 
+    bins = [0, 100000, 200000, 300000, df['bal'].max()]     
+    labels = ['Low', 'Medium', 'High', 'Strong']
+
+    df['balance'] = pd.cut(df['bal'], bins=bins, labels=labels, include_lowest=True)
+
+    df['balance'].value_counts()
+   
+    return df
+
+def tenure_category(df):
+    bins = [0, 48, 96, 200, df['clnt_tenure_mnth'].max()]     
+    labels = ['New', 'Medium Time', 'Long Time', 'Very Long Time']
+
+    df['tenure'] = pd.cut(df['clnt_tenure_mnth'], bins=bins, labels=labels, include_lowest=True)
+
+    df['tenure'].value_counts()
+   
+    return df
+
 def average_time_spent_by_step(df):
     avg_time_spent = df.groupby(['Variation', 'process_step'])['time_spent'].mean().unstack()
     return avg_time_spent
