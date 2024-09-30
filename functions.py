@@ -28,6 +28,7 @@ def clean_data(df):
     df_filtered['logons_6_mnth'] = df_filtered['logons_6_mnth'].astype(int)
     df_filtered['gendr'] = df_filtered['gendr'].replace({'X': 'U'})
     df_filtered = df[df['Variation'].notna()]
+    df_filtered['date_time'] = pd.to_datetime(df_filtered['date_time'])
     return df_filtered
 
 # --- Statistical Analysis (mean, variance, etc.) ---
