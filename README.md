@@ -11,7 +11,6 @@ Este proyecto se centra en el análisis de datos de un experimento digital, util
 - [Uso](#Uso)
 - [Funciones](#Funciones)
 - [Contribuciones](#Contribuciones)
-- [Licencia](#Licencia)
 
 ## Características
 
@@ -108,10 +107,3 @@ A continuación se detallan las funciones disponibles en `functions.py`:
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un "issue" o envía un "pull request".
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-```
-
-Asegúrate de ajustar los detalles específicos de tu proyecto y agregar cualquier información adicional que consideres relevante. ¡Espero que te sea útil!
