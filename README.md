@@ -11,6 +11,7 @@ Este proyecto se centra en el análisis de datos de un experimento digital, util
 - [Uso](#Uso)
 - [Funciones](#Funciones)
 - [Contribuciones](#Contribuciones)
+- [Autoras](#Autoras)
 
 ## Características
 
@@ -107,3 +108,7 @@ A continuación se detallan las funciones disponibles en `functions.py`:
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un "issue" o envía un "pull request".
+
+## Autoras 
+
+Cristina Ramírez | Beatriz Tranche
