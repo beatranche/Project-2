@@ -112,8 +112,8 @@ Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un "iss
 
 ## Links 
 
-[Enlace a presentación](https://prezi.com/view/mSvrwbefWRkJcKrg1KCv/)
-[Enlace a Tableau](https://public.tableau.com/views/Libro1_17277803145900/Historia1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Enlace a presentación](https://prezi.com/view/mSvrwbefWRkJcKrg1KCv/)
+- [Enlace a Tableau](https://public.tableau.com/views/Libro1_17277803145900/Historia1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Autoras 
 
